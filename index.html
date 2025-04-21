@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Register for my Birthday below
+    </h1>
+    <button id="darkModeToggle">&#9728; Light Mode</button>
+    <h2>Register</h2>
+    <form id="myForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <div class="error-message" id="nameError">
+                <!-- error message when name is invalid -->
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <div class="error-message" id="emailError">
+                <!-- Error message when email is invalid -->
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="message" class="hidden">
+<!--         This holds the message to show user after form is submitted
+ --> </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
